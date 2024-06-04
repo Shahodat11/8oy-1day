@@ -1,3 +1,40 @@
-.price{
-    color: gold;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 220px;
+    height: 310px;
+    padding-left: 10px;
+    margin: 30px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+.card-title{
+    width: 200px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+}
+.card-rating{
+    width: 200px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+}
+.card-price{
+    width: 200px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+}
+.card-img{
+    width: 200px;
+    border-radius: 10px;
+}
+.card-button{
+    padding-right: 15px;
+    background-color: #fff;
+    border: 2px solid #fff;
 }
